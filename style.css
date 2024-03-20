@@ -97,3 +97,16 @@ footer {
     margin: 10px;
     text-align: center;
 }
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Change to column layout on smaller screens */
+    }
+    .main-content {
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+    .side-content {
+        margin-top: 10px; /* Add some space between main and side content on smaller screens */
+    }
+}
